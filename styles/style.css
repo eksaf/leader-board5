@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Montserrat:ital,wght@0,600;0,700;1,400&family=Poppins:wght@500&family=Signika:wght@400;500;700&family=Vollkorn&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+.players{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap:30px;
+}
+.player{
+    display:flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+height: 56px;
+
+}
+.player-name{
+margin-left:16px;
+font-size:18px;
+}
+.container{
+    background-color: #FFFFFF;
+    Width:870px;
+    padding:30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+ .section-title{
+     color:#562EFF;
+     font-size: 24px;
+     padding:30px;
+     margin-top:3px;
+
+ }   
+ .top-players{
+     margin-bottom:30px;
+ }
+ .blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+    
+ }
+ .blog{
+     display:flex;
+ }
+ .blog-info{
+     margin-left: 16px;
+ }
